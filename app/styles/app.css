@@ -3,6 +3,11 @@
   font-family: 'Monoton', cursive;
 }
 
+h3 {
+  font-size: 40px;
+  font-style: italic;
+}
+
 .list-group-item:nth-child(odd) {
   background-color: #f4f2f0;
 }
@@ -19,4 +24,16 @@
 .list-group-item {
   border: none;
   margin-bottom: 4px;
+}
+
+.notes {
+  color: #737373;
+}
+
+.questionBox {
+  padding-bottom: 40px;
+}
+
+.buttonBox {
+  padding-bottom: 40px;
 }
