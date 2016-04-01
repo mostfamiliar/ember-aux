@@ -37,3 +37,9 @@ h3 {
 .buttonBox {
   padding-bottom: 40px;
 }
+
+.deleteQ {
+  padding: 2px 4px;
+  margin-left: 98%;
+  margin-bottom: 5px;
+}

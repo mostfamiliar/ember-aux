@@ -1,6 +1,4 @@
-<h2>Recording forum</h2>
-
-<h3>Questions</h3>
+<h3>Recording Questions</h3>
   {{#each model.questions as |question| }}
     {{#link-to 'single-question' question.id}}
     {{question-tile question=question}}

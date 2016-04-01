@@ -8,7 +8,7 @@
   </div>
 
   <div class="list-group">
-    <h2>Answers</h2>
+    <h2>Answers <span class="badge">{{model.answers.length}}</span></h2>
     {{#each model.answers as |answer|}}
       <div class="list-group-item">
         {{answer-tile answer=answer question=model deleteAnswerOnQuestion="deleteAnswerOnQuestion"}}
@@ -19,5 +19,6 @@
 
 <div class="col-md-4">
   {{add-answer sendAnswer="sendAnswer" question=model}}
-  <h3>{{post.answers.length}}</h3>
+
+
 </div>
