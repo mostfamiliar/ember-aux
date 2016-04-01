@@ -1,7 +1,12 @@
-# Aux
+# _AUX_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _Recording Q&A Forum, 4/1/2016_
+
+#### By _**Torrence Stratton**_
+
+## Description
+
+_This application allows a user to enter a question for public answer. A user can also answer other user-posted questions, as well as upvote or downvote questions._
 
 ## Prerequisites
 
@@ -17,37 +22,23 @@ You will need the following things properly installed on your computer.
 
 * `git clone <repository-url>` this repository
 * change into the new directory
-* `npm install`
-* `bower install`
+* `npm install -g`
+* `bower install -g`
 
 ## Running / Development
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Technologies Used
 
-Make use of the many generators for code, try `ember help generate` for more details
+* _JS_
+* _HTML_
+* _Ember_
+* _Gulp_
+* _Bower_
+* _Atom_
 
-### Running Tests
+### License
 
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016 **_Torrence Stratton_**
