@@ -2,7 +2,7 @@
 <h2>Recording forum</h2>
 
 <h3>Questions</h3>
-  {{#each model as |question| }}
+  {{#each model.questions as |question| }}
     {{#link-to 'single-question' question.id}}
     {{question-tile question=question}}
     {{/link-to}}

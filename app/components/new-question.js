@@ -11,9 +11,10 @@ export default Ember.Component.extend({
         username: this.get('username'),
         title: this.get('title'),
         notes: this.get('notes'),
+        answers: []
         };
-      this.set('addNewQuestion', false);
       this.sendAction('saveQuestion', params);
+      this.set('addNewQuestion', false);
     }
   }
 });

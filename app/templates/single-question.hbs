@@ -1,3 +1,9 @@
 {{question-detail question=model}}
 {{edit-question question=model editQuestion="editQuestion"}}
 <button class="btn btn-danger" {{action 'deleteQuestion' model}}>Delete</button>
+
+{{add-answer sendAnswer="sendAnswer" question=model}}
+<h2>Answers</h2>
+{{#each model.answers as |answer|}}
+  {{answer.username}}
+{{/each}}

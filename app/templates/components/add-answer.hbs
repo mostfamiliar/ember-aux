@@ -1,0 +1,12 @@
+<h2>Add Answer:</h2>
+<form>
+  <div class="form-group">
+    <label for="username">Username</label>
+    {{input type="username" value=username}}
+  </div>
+  <div class="form-group">
+    <label for="answer">Answer</label>
+    {{input type="text" value=text}}
+  </div>
+  <button class="btn btn-primary" {{action 'addAnswer'}}>Add Answer</button>
+</form>
