@@ -19,6 +19,7 @@ export default Ember.Route.extend({
       this.transitionTo('index');
     },
     sendAnswer(params) {
+      console.log(params);
       var newAnswer = this.store.createRecord('answer', params);
       var question = params.question;
       question.get('answers').addObject(newAnswer);
@@ -27,5 +28,10 @@ export default Ember.Route.extend({
       });
       this.transitionTo('single-question');
     }
+    // countAnswers(model) {
+    //   var test1 = this.get('model');
+    //
+    //   var test = model.get('comments.length');
+    // }
   }
 });

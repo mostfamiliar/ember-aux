@@ -3,7 +3,9 @@
 <button class="btn btn-danger" {{action 'deleteQuestion' model}}>Delete</button>
 
 {{add-answer sendAnswer="sendAnswer" question=model}}
+<h3 {{action 'countAnswers' model}}>test</h3>
+
 <h2>Answers</h2>
 {{#each model.answers as |answer|}}
-  {{answer-tile answer=answer post=model}}
+  {{answer-tile answer=answer question=model}}
 {{/each}}
