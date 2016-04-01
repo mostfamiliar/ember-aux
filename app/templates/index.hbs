@@ -2,10 +2,10 @@
 <h2>Recording forum</h2>
 
 <h3>Questions</h3>
-
   {{#each model as |question| }}
-    {{question-tile question=question editQuestion="editQuestion" deleteQuestion="deleteQuestion"}}
+    {{#link-to 'single-question' question.id}}
+    {{question-tile question=question}}
+    {{/link-to}}
   {{/each}}
-
 
 {{new-question saveQuestion="saveQuestion"}}
