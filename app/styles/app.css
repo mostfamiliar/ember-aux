@@ -47,3 +47,14 @@ h3 {
 .glyphicon {
   font-size: 18px;
 }
+
+.nav {
+  margin-left: 12%;
+  margin-right: 12%;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.nav a {
+  color: #334d4d;
+}
