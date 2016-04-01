@@ -1,3 +1,4 @@
 <h3>{{question.title}}</h3>
 <p>Submitted by: {{question.username}}</p>
 <p class="notes">{{question.notes}}</p>
+<p><span class="glyphicon glyphicon-arrow-up" {{action 'upVote' question}} aria-hidden="true"></span> {{question.votes}} <span class="glyphicon glyphicon-arrow-down" {{action 'downVote' question}} aria-hidden="true"></span></p>

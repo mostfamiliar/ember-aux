@@ -11,6 +11,7 @@ export default Ember.Component.extend({
         username: this.get('username'),
         title: this.get('title'),
         notes: this.get('notes'),
+        votes: 0,
         answers: []
         };
       this.sendAction('saveQuestion', params);
