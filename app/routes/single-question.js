@@ -27,6 +27,12 @@ export default Ember.Route.extend({
         return question.save();
       });
       this.transitionTo('single-question');
+    },
+    deleteAnswerOnQuestion(answer, question){
+      answer.destroyRecord().then(function(){
+        question.save();
+      });
+      this.transitionTo('single-question');
     }
     // countAnswers(model) {
     //   var test1 = this.get('model');

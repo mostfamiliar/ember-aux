@@ -9,8 +9,8 @@ export default Ember.Component.extend({
         question: this.get('question')
       };
       this.sendAction('sendAnswer', params);
-      this.set('email', "");
-      this.set('comment', "");
+      this.set('username', "");
+      this.set('text', "");
     }
   }
 });

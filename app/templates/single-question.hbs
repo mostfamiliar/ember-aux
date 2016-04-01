@@ -11,7 +11,7 @@
     <h2>Answers</h2>
     {{#each model.answers as |answer|}}
       <div class="list-group-item">
-        {{answer-tile answer=answer question=model}}
+        {{answer-tile answer=answer question=model deleteAnswerOnQuestion="deleteAnswerOnQuestion"}}
       </div>
     {{/each}}
   </div>
