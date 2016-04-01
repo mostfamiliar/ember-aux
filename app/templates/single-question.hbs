@@ -5,5 +5,5 @@
 {{add-answer sendAnswer="sendAnswer" question=model}}
 <h2>Answers</h2>
 {{#each model.answers as |answer|}}
-  {{answer.username}}
+  {{answer-tile answer=answer post=model}}
 {{/each}}
