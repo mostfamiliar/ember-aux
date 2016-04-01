@@ -6,6 +6,11 @@
 <h3 {{action 'countAnswers' model}}>test</h3>
 
 <h2>Answers</h2>
+
+<div class="list-group">
 {{#each model.answers as |answer|}}
+  <div class="list-group-item">
   {{answer-tile answer=answer question=model}}
+</div>
 {{/each}}
+  </div>

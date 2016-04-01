@@ -1,3 +1,22 @@
 #title {
-  font-size: 65px;
+  font-size: 85px;
+  font-family: 'Monoton', cursive;
+}
+
+.list-group-item:nth-child(odd) {
+  background-color: #f4f2f0;
+}
+
+.list-group-item:nth-child(even) {
+  background-color: #f0f5f5;
+}
+
+.jumbotron {
+  background-image: url("../assets/tape_machine.jpg");
+  opacity: 0.7;
+}
+
+.list-group-item {
+  border: none;
+  margin-bottom: 4px;
 }
